@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import './Switches.js';
 import Switch from '@material-ui/core/Switch';
+import Botao from './Botao';
 
 
 function Switches() {
@@ -46,25 +47,77 @@ const App = () => {
     <Container>
 
 
-      <div style={{heigth: '1000px'}}>
-        Oprtunidades disponíveis <span style={{float:'right'}}>Ativar geolocalização {Switches()}</span>
+      <div>
+        Oprtunidades disponíveis <span style={{ float: 'right' }}>Ativar geolocalização {Switches()}</span>
 
       </div>
 
-      <Row style={{width: '100%'}} md={3} className='justify-content-center'>
+      <Row style={{ width: '100%' }} md={3} className='justify-content-center'>
 
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
-        <CardMoreTest />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <CardMoreTest
+          cardHeader='Vaga de voluntariado'
+          cardDescricao='Entrega de roupas e alimentos para desabrigados'
+          cardSp='SP invisível'
+          cardJoin='2 - 6 horas semanais'
+          cardLocal='Natal - RN'
+        />
+        <Botao />
 
       </Row>
     </Container>

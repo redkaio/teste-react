@@ -1,35 +1,27 @@
-.capsule{
-    background-color: red;
-    width: 100%;
-    height: 100%;
+  
+
+  .card-descricao{
+    width: 70%; 
+    height:35%;
     display: block;
-  }
-  .line{
-    background-color: yellow;
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-  .split{
-    background-color: blue;
-    width: 100%;
-    height: 100%;
-    display: flex;
-  }
-  .f-half{
-    background-color: green;
-    width: 50%;
-    height: 100%;
-    display: block;
-  }
-  .l-half{
-    background-color: pink;
-    width: 50%;
-    height: 100%;
-    display: block;
+    
   }
 
-  .card-size {
-    height: 100%;
-    width: 100%;
+  .card-sp{
+    width: 100%; 
+    height: 10%;
+    
+  }
+
+  .card-join{
+    width: 50%;
+    height: 35%; 
+    
+    
+  }
+
+  .card-footer{
+    width: 100%; 
+    height: 10%; 
+    
   }

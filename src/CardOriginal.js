@@ -26,15 +26,23 @@ const App = () => {
 
         <Grid item xs={12} sm={6} md={4} lg={4} xlg={4}>
           <Card style={{ width: '100%', height: '100%' }}>
-            <div style={{ width: '100', height: '10%', backgroundColor: 'red' }}></div>
-            <div style={{ width: '70%', height: '35%', backgroundColor: 'blue' }}></div>
-            <div style={{ width: '100%', height: '10%', backgroundColor: 'green' }}></div>
-            <div style={{ width: '50%', height: '35%', backgroundColor: 'pink' }}></div>
-            <div style={{ widht: '100%', height: '10%', backgroundColor: 'yellow' }}></div>
+            <div className="capsule">
+              <div className="line"></div>
+              <div className="split">
+                <div className="f-half"></div>
+                <div className="l-half"></div>
+              </div>
+              <div className="line"></div>
+              <div className="split">
+                <div className="f-half"></div>
+                <div className="l-half"></div>
+              </div>
+              <div className="line"></div>
+            </div>
 
           </Card>
         </Grid>
-        <Grid item xs={12} sm={6} md={4} lg={4} xlg={4}>
+        {/* <Grid item xs={12} sm={6} md={4} lg={4} xlg={4}>
           <Card style={{ width: '100%', height: '25rem' }}>
             <div style={{ height: '10%', backgroundColor: 'red' }}></div>
             <div style={{ width: '70%', height: '35%', backgroundColor: 'blue' }}></div>
@@ -112,9 +120,9 @@ const App = () => {
             <div style={{ width: '50%', height: '35%', backgroundColor: 'pink' }}></div>
             <div style={{ widht: '100%', height: '10%', backgroundColor: 'yellow' }}></div>
           </Card>
-        </Grid>
+        </Grid> */}
 
-        
+
       </Grid>
     </Container>
 
