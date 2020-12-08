@@ -28,3 +28,8 @@
     height: 100%;
     display: block;
   }
+
+  .card-size {
+    height: 100%;
+    width: 100%;
+  }

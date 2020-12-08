@@ -1,45 +1,44 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-// import { CardColumns } from 'react-bootstrap';
 import { Grid } from '@material-ui/core';
+import './style.css';
 
-// function getButtonText() {
-//     return 'Click on me';
-// };
 
 
 const CardMoreTest = () => {
-  // const buttonText = 'Click me';
+
 
 
   return (
 
 
+
+
+
     <Container>
-      <Grid container spacing={4} style={{ display: 'flex' }} >
-
-          
-        <Grid item xs={12} sm={12} md={4} lg={4} xlg={4}>
-          <Card style={{ height: '25rem' }}>
-            <div style={{ height: '10%', backgroundColor: 'red' }}></div>
-            <div style={{ width: '70%', height: '35%', backgroundColor: 'blue' }}></div>
-            <div style={{ width: '100%', height: '10%', backgroundColor: 'green' }}></div>
-            <div style={{ width: '50%', height: '35%', backgroundColor: 'pink' }}></div>
-            <div style={{ widht: '100%', height: '10%', backgroundColor: 'yellow' }}></div>
-          </Card>
-        </Grid>
-
-       
-
-    
-      
-      </Grid>
+      <Grid container spacing={4} style={{ display: 'flex' }}>
+        <Grid item xs={12} sm={6} md={4} lg={4} xlg={4}></Grid>
+        <Card style={{ width: '300px', height: '25rem', marginTop:'3px', marginBottom:'50px' }}>
+          <Card.Body>
+            <Card.Header>Nome do projeto</Card.Header>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.Some quick example text to build on the card title and make up the bulk of
+              the card's content.Some quick example text to build on the card title and make up the bulk of
+              the card's content
+            </Card.Text>
+            <Card.Footer></Card.Footer>
+          </Card.Body>
+        </Card>
+      </Grid >
     </Container>
+
+
+
+
 
   );
 };
