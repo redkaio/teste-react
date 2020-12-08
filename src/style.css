@@ -3,25 +3,53 @@
   .card-descricao{
     width: 70%; 
     height:35%;
-    display: block;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
     
   }
 
   .card-sp{
     width: 100%; 
     height: 10%;
+    margin: 0 auto;
+    border: solid 1px black;
     
   }
 
   .card-join{
     width: 50%;
     height: 35%; 
+    border: solid 1px black;
     
     
   }
 
   .card-footer{
     width: 100%; 
-    height: 10%; 
+    height: 10%;
+    border: solid 1px black;
     
+    
+  }
+
+  .split {
+      width: 100%;
+      height: 100%;
+      display: flex;
+  }
+
+  .f-half{
+    
+    width: 50%;
+    height: 100%;
+    display: block;
+    border: solid 1px black;
+  }
+
+  .l-half{
+    width: 50%;
+    height: 100%;
+    display: block;
+    border: solid 1px black;
   }
